@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span {
+          color: green;
+          border: 2px solid black;
+        }
+        .extra span {
+          color: inherit; 
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Here a <span> element </span> which is green, as span elements are.
+    </div>
+    <div class="extra" style="color: purple">
+        Here is <span> a span element </span> which is purple because it inherits from its parent. 
+    </div>
+    <div style="color: orange">
+        Here is <span> a span element </span> which is green, as span elements are set to be.
+    </div>
+        
+</body>
+</html>
